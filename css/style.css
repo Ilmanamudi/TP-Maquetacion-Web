@@ -51,6 +51,11 @@ body {
   font-weight: 700;
   padding: 6px 12px;
 }
+
+.form-control:focus {
+  border-color: var(--var-principal);
+  box-shadow: 0 0 0 0.25rem rgba(33, 133, 180, 0.25);
+}
 .social-icon {
   color: #495057; 
   display: inline-flex;
