@@ -43,6 +43,14 @@ body {
   background-color: var(--var-secundario);
   color: #111111;
 }
+
+.custom-badge {
+  background-color: rgba(33, 133, 180, 0.15);
+  color: var(--var-principal);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 6px 12px;
+}
 .social-icon {
   color: #495057; 
   display: inline-flex;
