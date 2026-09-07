@@ -28,8 +28,21 @@ body {
   color: #111111; 
   font-weight: 600;
 }
-
-
+.card-img-top {
+  height: 180px;
+  object-fit: contain;
+}
+.btn-principal {
+  background-color: var(--var-principal);
+  color: var(--var-terciario);
+  border: none;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+.btn-principal:hover {
+  background-color: var(--var-secundario);
+  color: #111111;
+}
 .social-icon {
   color: #495057; 
   display: inline-flex;
