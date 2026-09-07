@@ -1,0 +1,45 @@
+:root {
+  --var-principal: rgb(33, 133, 180);
+  --var-secundario: rgb(51, 199, 137);
+  --var-terciario: rgb(255, 255, 255);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, rgba(107, 200, 246, 0.94) 0%, rgb(154, 215, 208) 48%, rgba(107, 200, 246, 0.94) 100%);
+}
+
+.nav-pills .nav-link {
+  color: #000000;
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--var-principal);
+  color: var(--var-terciario);
+  font-weight: 600; 
+}
+
+.nav-pills .nav-link:not(.active):hover {
+  background-color: var(--var-secundario);
+  color: #111111; 
+  font-weight: 600;
+}
+
+
+.social-icon {
+  color: #495057; 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: var(--var-principal);
+  transform: translateY(-2px);
+}
