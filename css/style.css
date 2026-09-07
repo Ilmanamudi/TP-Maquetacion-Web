@@ -69,3 +69,23 @@ body {
   color: var(--var-principal);
   transform: translateY(-2px);
 }
+@media (max-width: 767.98px) {
+  .nav-pills .nav-link {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .input-group-lg .form-control {
+    font-size: 0.95rem;
+    padding: 0.6rem 0.75rem;
+  }
+
+  .input-group-lg .form-control::placeholder {
+    font-size: 0.9rem;
+  }
+
+  .input-group-lg .btn {
+    font-size: 0.95rem;
+    padding: 0.6rem 1rem;
+  }
+}
